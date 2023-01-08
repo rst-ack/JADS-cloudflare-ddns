@@ -1,0 +1,9 @@
+---
+auth_key: "auth_key_goes_here"
+domains:
+  - name: "example.com"
+    zone_id: "zone_id_goes_here"
+    cache_file: "/etc/ddns/cache.txt"
+    records:
+      - name: "example.com"
+        record_id: "record_id_goes_here"
